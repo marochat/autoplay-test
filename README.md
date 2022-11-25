@@ -1,12 +1,6 @@
 # tauri autoplay problem
 
 ## to try this problem
-\$ git clone https://github.com/marochat/autoplay-test
-
-\$ cd autoplay-test
-
-\$ npm init -y
-
 \$ npm install
 
 \$ cargo tauri dev
@@ -19,13 +13,13 @@
 ## result
 ||mac|windows|Linux|
 |-|-|-|-|
-|sample1|○|○|○|
-|sample2|○|○|×|
-|sample3|○|○|×|
+|sample1|OK|OK|OK|
+|sample2|OK|OK|NG|
+|sample3|OK|OK|NG|
 
 ## note.
 
-- Linux: ubuntu 22.04LTS
+- Linux: RaspberryPi - Debian11(bullseye) - WebkitGTK2
     - sudo apt install libdbus-1-dev librust-glib-sys-dev librust-cairo-sys-rs-dev librust-gdk-sys-dev libsoup2.4-dev libwebkit2gtk-4.0-dev  
 
 ### author
